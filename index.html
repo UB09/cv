@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh's Personal Site</title>
+</head>
+<body>
+    <!-- Now for adding text on the side of the image, we can also use table like below -->
+    <table cellspacing ="20">
+        <tr>
+            <td><img src="https://media.licdn.com/dms/image/C4D03AQF8J2g-5nt-2g/profile-displayphoto-shrink_400_400/0/1655736443570?e=1680739200&v=beta&t=Fu4anMJont4oruFpQPWxnaY1_JIZujnUqOVODoaNXHk" alt="Utkarsh profile picture"></td>
+
+            <td><h1>Utkarsh B</h1>
+                <p><em> Founder and CEO. <strong><a href="https://www.linkedin.com/feed/">fineliving</a></strong></em></p>
+                <p>I am a rockstar, multi-billionaire, come here to build and achieve the greatest. </p></td>
+        </tr>
+    </table>
+    <!--incorporating image element, but here as awe have taken the image from inkedin, my website has to ping linkdin and render the image, but what if the likdin servers are down, in that case we save image in the same folder  -->
+    <!-- <img src="https://media.licdn.com/dms/image/C4D03AQF8J2g-5nt-2g/profile-displayphoto-shrink_400_400/0/1655736443570?e=1680739200&v=beta&t=Fu4anMJont4oruFpQPWxnaY1_JIZujnUqOVODoaNXHk" alt="Utkarsh profile picture"> -->
+    <!-- <h1>Utkarsh B</h1>
+    <p><em> Founder and CEO. <strong><a href="https://www.linkedin.com/feed/">fineliving</a></strong></em></em></em></p>
+    <p>I am a rockstar, multi-billionaire, come here to build and achieve the greatest. </p> -->
+    <hr>
+    <h3>Education</h3>
+    <!--Put in a bullet list-->
+    <ul>
+        <li>One must be extremely magnanimous</li>
+        <li>Are you a billionare too, great!</li>
+    </ul>
+    <hr>
+    <h3>Work Experience</h3>
+    <!-- <p>2024-future Multibillionare</p>
+    <p>2020-2024 Bits Pilani</p>
+    <p>2017-2019 JEE Prep</p> -->
+    <!-- Now this way the workex coloumn looks very random and scattered so we introduce tables -->
+    <table cellspacing="10" border = "1">
+        <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Work</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2024-future</td> <!--Gets in the first couloumn of first row-->
+                <td>Multibillionare</td> <!--Gets in second coloumn of first row-->
+            </tr>
+            <tr>
+                <td>2020-2024</td>
+                <td>Bits Pilani</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+        <!-- <tr>
+            <th>Dates</th>
+            <th>Work</th>
+        </tr> --> 
+        
+        <!-- <tr>
+            <td>2024-future</td>
+            <td>Multibillionare</td>
+        </tr>
+        <tr>
+            <td>2020-2024</td>
+            <td>Bits Pilani</td>
+        </tr> -->
+    </table>
+    <br>
+    <hr>
+    <a href = "hobbies.html">My Hobbies</a>
+    <br><br>
+    <a href = "contact.html">Contact Me</a>
+
+    <!-- <h3>Contact Me</h3>
+    <ul>
+        <li>Phone no. 990088777</li>
+        <li>Address - NYC building</li>
+    </ul> -->
+    <!-- here above we instead of writing all hobies in the same file, we created another file under same folder and made it to link with it through href -->
+    <!-- <h3>My hobbies</h3>
+    <ol> (<ol start = 7, to start from a particaular nuber or <ol type = "i" for roman numbers
+
+        <li><a href = "https://www.youtube.com/">Beer brewing</a></li>
+        <li>Martial arts</li>
+    </ol> --> 
+    <!--Adding hyperlinks-->
+    <hr>
+    <h3>Skills</h3>
+
+    <table cellspaing="20"> <!--below is a nested table-->
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Data Analyst</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+
+                </table>
+
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Risk Management</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>People Management</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+            <!-- <tr>
+                <td>Web Development</td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Data Analyst</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr> -->
+       
+    </table>
+   
+</body>
+</html>
